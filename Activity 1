@@ -1,0 +1,17 @@
+name = input("Enter your Name:")
+age = int(input("Enter your Age:"))
+address=input("Enter your Address:")
+
+print("--------------------------")
+print("Your Information")
+print(f"Name:{name}")
+print(f"Age:{age}")
+print(f"Address:{address}")
+
+print("--------------------------")
+currentyear = int(input('Enter the current year: '))
+birthyear = int(input('Enter your birthyear: '))
+
+year = currentyear - birthyear
+
+print(f"your current age is {year}")
