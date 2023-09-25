@@ -1,0 +1,24 @@
+name = input("Enter your fathers's name:")
+address=input("Enter your father's address:")
+birthyear = int(input("Enter your father's birthyear:"))
+
+age = 2023 - birthyear
+
+print("--------------------------")
+print("Your Information")
+print(f"father's name: {name}")
+print(f"father's address: {address}")
+print(f"father's age: {age}")
+
+print("--------------------------")
+sub1 = int(input("enter your grade in english:"))
+sub2 = int(input("enter your grade in filipino: "))
+sub3 = int(input("enter your grade in science: "))
+sub4 = int(input("enter your grade in math: "))
+sub5 = int(input("enter your grade in araling panlipunan: "))
+sub6 = int(input("enter your grade in physical education: "))
+
+total = sub1 + sub2 + sub3 + sub4 + sub5 + sub6
+average = total / 6
+
+print(f"your average grade is: {average}")
